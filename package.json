@@ -4,6 +4,9 @@
   "version": "1.2.0",
   "author": "Jared Hunter <jhunter@twilio.com>",
   "private": true,
+  "engines": {
+    "node": "18.x",
+   },
   "scripts": {
     "postinstall": "flex-check-start",
     "prestart": "flex-check-start",
