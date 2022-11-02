@@ -5,7 +5,7 @@
   "author": "Jared Hunter <jhunter@twilio.com>",
   "private": true,
   "engines": {
-    "node": "17.x"
+    "node": "16.x"
    },
   "scripts": {
     "postinstall": "flex-check-start",
