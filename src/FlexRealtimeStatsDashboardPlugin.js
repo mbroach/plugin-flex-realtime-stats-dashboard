@@ -12,7 +12,7 @@ const QUEUE_STATS_SYNC_MAP_NAME = "queueStats";
 export default class FlexRealtimeStatsDashboardPlugin extends FlexPlugin {
   constructor() {
     super(PLUGIN_NAME);
-    this.backendHostname = "twilio-flex-sample-backend.herokuapp.com";
+    this.backendHostname = "https://vbt-hd.herokuapp.com";
   }
 
   /**
