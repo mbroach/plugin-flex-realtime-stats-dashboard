@@ -6,7 +6,7 @@ import { MainView } from "./components/RealTimeStats/MainView";
 import "./notifications/CustomNotifications";
 
 const PLUGIN_NAME = "FlexRealtimeStatsDashboardPlugin";
-const USE_TWILIO_FUNCTIONS = false;
+const USE_TWILIO_FUNCTIONS = true;
 const QUEUE_STATS_SYNC_MAP_NAME = "queueStats";
 
 export default class FlexRealtimeStatsDashboardPlugin extends FlexPlugin {
